@@ -1,0 +1,13 @@
+#about-me {
+	margin: 10px 0 0 0;
+}
+
+.tabs .indicator {
+	background-color: gold;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
