@@ -1,0 +1,19 @@
+{
+  "name": "profile_site",
+  "version": "1.0.0",
+  "description": "personal profile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiamTRobinson/profile_site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LiamTRobinson/profile_site/issues"
+  },
+  "homepage": "https://github.com/LiamTRobinson/profile_site#readme"
+}

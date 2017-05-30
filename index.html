@@ -2,77 +2,8 @@
 <html>
 <head>
 	<title>Liam Robinson</title>
-	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body class="container">
-	<main class="container">
-		<div class="row">
-			<header class="col s12 m12 l12">
-				<div class="card blue lighten-3">
-					<div class="card-content">
-						<span class="card-title center"><h1>Liam Robinson</h1></span>
-					</div>
-				</div>
-			</header>
-		</div>
-		<div class="row">
-			<div class="col s12 m12 l12">
-				<ul class="tabs">
-					<li class="tab col s6 m6 l6"><a class="black-text" href="#about-me">About Me</a></li>
-					<li class="tab col s6 m6 l6"><a href="#my-projects" class="black-text">My Projects</a></li>
-				</ul>
-				<div id="about-me" class="col z-depth-2 black white-text">
-					<h3 class="center">About Me</h3>
-					<p>I am a full stack developer who loves nothing more than to watch data come to life on a page through RESTful routes and front-end logic with simple, to the point styling.  I am proficient in HTML/CSS, JavaScript, Node.js, Angular, Ruby, Rails, MongoDB, SQL and Heroku.  Since I can think of nothing I enjoy more than creative problem solving, my favorite code to write is JS and Ruby.  When I'm not coding, I enjoy tackling logic problems, doing jigsaw puzzles, playing Magic: The Gathering, and listening to any and all music I can get my hands on.</p>
-				</div>
-				<div id="my-projects" class="col">
-					<div class="row">
-						<div class="col s12">
-							<div class="card card-large black horizontal">
-								<div class="card-image">
-									<img src="games.png">
-								</div>
-								<div class="card-content white-text">
-									<div class="card-title">Chill Games</div>
-									<p>This is a site with a couple games using JavaScript as the engine.</p>
-									<div class="card-action white-text">
-										<a href="https://liamtrobinson.github.io/Simon/index.html" target="_blank">Check it out</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col s12">
-							<div class="card card-large black horizontal">
-								<div class="card-image">
-									<img src="mtg.png">
-								</div>
-								<div class="card-content white-text">
-									<div class="card-title">DeckedOut</div>
-									<p>This is a mobile ready app for creating and play-testing Magic: The Gathering Decks</p>
-									<div class="card-action white-text">
-										<a href="https://quiet-tor-58343.herokuapp.com/" target="_blank">Make a deck</a>
-									</div>
-								</div>
-							</div>							
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</main>
-	<footer class="page-footer white right-align">
-		<a href="https://github.com/LiamTRobinson" target="_blank"><img src="GitHub-Mark-32px.png"></a>
-		<a href="https://www.linkedin.com/in/liam-robinson-14a228135/" target="_blank"><img src="In-Black-34px-R.png"></a>
-	</footer>
-<script
-  src="https://code.jquery.com/jquery-3.1.1.min.js"
-  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-  crossorigin="anonymous"></script>
-<script type="text/javascript" src="js/materialize.min.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
+<body ng-app="profileSite">
+	<ui-view></ui-view>
 </body>
 </html>
